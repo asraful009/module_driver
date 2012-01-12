@@ -1,0 +1,43 @@
+#!/bin/sh
+
+module="lock"
+device=$module
+mode="664"
+node_limit=1
+
+echo "set value [ok]"
+
+
+/sbin/insmod  $module.ko limit=`expr $node_limit + 1 ` driver_name=$module || exit 1
+
+echo "insmod loaded $module [ok]"
+
+
+
+rm -f /dev/${module}*
+#[0-$node_limit]
+
+echo "remove node 0 to $node_limit [ok]"
+
+major=` awk "\\$2==\"$module\" {print \\$1}" /proc/devices `
+
+echo "set $major [ok]"
+i=0
+
+while [ $i -le $node_limit ]
+do
+	mknod /dev/${device}$i c "$major" $i
+	
+	i=` expr $i + 1 `
+	
+done
+
+group="wheel"
+grep '^wheel:' /etc/group > /dev/null || group="wheel"
+
+
+chgrp $group /dev/${device}[0-$node_limit]
+chmod $mode /dev/${device}[0-$node_limit]
+
+echo "end [ok]"
+

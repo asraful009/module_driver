@@ -1,0 +1,122 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:00 init [3]  
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:00 [ksoftirqd/0]
+    4 ?        S      0:00 [kworker/0:0]
+    6 ?        S      0:00 [migration/0]
+    7 ?        S<     0:00 [cpuset]
+    8 ?        S<     0:00 [khelper]
+   12 ?        S<     0:00 [netns]
+  317 ?        S      0:00 [sync_supers]
+  319 ?        S      0:00 [bdi-default]
+  321 ?        S<     0:00 [kblockd]
+  410 ?        S<     0:00 [ata_sff]
+  421 ?        S      0:00 [khubd]
+  428 ?        S<     0:00 [md]
+  437 ?        S<     0:00 [cfg80211]
+  548 ?        S<     0:00 [rpciod]
+  571 ?        S      0:00 [kswapd0]
+  636 ?        S      0:00 [fsnotify_mark]
+  655 ?        S<     0:00 [nfsiod]
+  661 ?        S      0:00 [jfsIO]
+  662 ?        S      0:00 [jfsCommit]
+  663 ?        S      0:00 [jfsSync]
+  672 ?        S<     0:00 [xfs_mru_cache]
+  673 ?        S<     0:00 [xfslogd]
+  674 ?        S<     0:00 [xfsdatad]
+  675 ?        S<     0:00 [xfsconvertd]
+  677 ?        S<     0:00 [crypto]
+  807 ?        S      0:00 [scsi_eh_0]
+  810 ?        S      0:00 [scsi_eh_1]
+  813 ?        S      0:00 [kworker/u:3]
+  822 ?        S      0:00 [scsi_eh_2]
+  825 ?        S      0:00 [scsi_eh_3]
+  828 ?        S      0:00 [kworker/u:4]
+  904 ?        S<     0:00 [kpsmoused]
+  960 ?        S<     0:00 [hd-audio0]
+  991 ?        S      0:00 [kjournald]
+ 1013 ?        S      0:00 [flush-8:0]
+ 1088 ?        S<s    0:00 /sbin/udevd --daemon
+ 1906 ?        Ssl    0:02 /usr/sbin/mysqld --defaults-file=/etc/mysql/my.cnf --basedir=/usr --datadir=/var/lib/mysql --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/run/mysqld/mysqld.sock
+ 1954 ?        S      0:00 supervising syslog-ng
+ 1955 ?        Ss     0:00 /usr/sbin/syslog-ng
+ 1970 ?        Ss     0:00 /usr/sbin/sshd
+ 1984 ?        Ss     0:00 /usr/sbin/apache2 -D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5 -d /usr/lib/apache2 -f /etc/apache2/httpd.conf -k start
+ 1986 ?        S      0:00 /usr/sbin/apache2 -D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5 -d /usr/lib/apache2 -f /etc/apache2/httpd.conf -k start
+ 1989 ?        S      0:00 /usr/sbin/apache2 -D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5 -d /usr/lib/apache2 -f /etc/apache2/httpd.conf -k start
+ 1990 ?        S      0:00 /usr/sbin/apache2 -D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5 -d /usr/lib/apache2 -f /etc/apache2/httpd.conf -k start
+ 1991 ?        S      0:00 /usr/sbin/apache2 -D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5 -d /usr/lib/apache2 -f /etc/apache2/httpd.conf -k start
+ 1992 ?        S      0:00 /usr/sbin/apache2 -D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5 -d /usr/lib/apache2 -f /etc/apache2/httpd.conf -k start
+ 1993 ?        S      0:00 /usr/sbin/apache2 -D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5 -d /usr/lib/apache2 -f /etc/apache2/httpd.conf -k start
+ 2008 ?        Ss     0:00 /usr/bin/dbus-daemon --system
+ 2038 ?        Ss     0:00 /usr/sbin/squid -YC -f /etc/squid/squid.conf
+ 2042 ?        S      1:46 (squid) -YC -f /etc/squid/squid.conf
+ 2043 ?        S      0:00 (unlinkd)
+ 2067 ?        Ss     0:00 /usr/sbin/cron
+ 2082 ?        Ss     0:00 /usr/sbin/vsftpd /etc/vsftpd/vsftpd.conf
+ 2121 ?        Ss     0:00 /usr/bin/gdm
+ 2132 ?        S      0:00 /usr/bin/gdm
+ 2134 tty7     Ss+    2:41 /usr/bin/X :0 -audit 0 -auth /var/gdm/:0.Xauth -nolisten tcp vt7
+ 2137 tty1     Ss+    0:00 /sbin/agetty 38400 tty1 linux
+ 2138 tty2     Ss+    0:00 /sbin/agetty 38400 tty2 linux
+ 2139 tty3     Ss+    0:00 /sbin/agetty 38400 tty3 linux
+ 2140 tty4     Ss+    0:00 /sbin/agetty 38400 tty4 linux
+ 2141 tty5     Ss+    0:00 /sbin/agetty 38400 tty5 linux
+ 2142 tty6     Ss+    0:00 /sbin/agetty 38400 tty6 linux
+ 2155 ?        Sl     0:00 /usr/sbin/console-kit-daemon --no-daemon
+ 2222 ?        Sl     0:00 /usr/libexec/polkitd
+ 2232 ?        Ssl    0:00 gnome-session
+ 2246 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/ssh-agent -- gnome-session
+ 2247 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 8 --session
+ 2248 ?        Ss     0:00 /usr/bin/ssh-agent -- gnome-session
+ 2253 ?        S      0:00 /usr/libexec/gconfd-2
+ 2261 ?        Ssl    0:01 /usr/libexec/gnome-settings-daemon
+ 2263 ?        SLl    0:00 /usr/bin/gnome-keyring-daemon --start --components=secrets
+ 2268 ?        S      0:00 /usr/libexec/gvfsd
+ 2269 ?        Sl     0:04 /usr/bin/metacity
+ 2278 ?        Sl     0:02 gnome-panel
+ 2280 ?        S      0:00 /usr/libexec/gvfs-gdu-volume-monitor
+ 2282 ?        Sl     0:00 /usr/libexec/udisks-daemon
+ 2283 ?        S      0:00 udisks-daemon: not polling any devices
+ 2288 ?        Sl     0:08 nautilus
+ 2290 ?        S      0:00 /usr/libexec/gdu-notification-daemon
+ 2293 ?        Sl     0:00 /usr/libexec/polkit-gnome-authentication-agent-1
+ 2294 ?        Sl     0:00 gnome-power-manager
+ 2296 ?        Sl     0:00 /usr/libexec/evolution/2.32/evolution-alarm-notify
+ 2301 ?        Ssl    0:00 /usr/libexec/bonobo-activation-server --ac-activate --ior-output-fd=23
+ 2303 ?        Sl     0:00 /usr/libexec/upowerd
+ 2304 ?        Ss     0:00 gnome-screensaver
+ 2344 ?        S      0:00 /usr/libexec/gvfsd-trash --spawner :1.13 /org/gtk/gvfs/exec_spaw/0
+ 2362 ?        Sl     0:05 /usr/libexec/wnck-applet
+ 2363 ?        Sl     0:00 /usr/libexec/trashapplet
+ 2366 ?        Sl     0:00 /usr/libexec/mixer_applet2
+ 2368 ?        Sl     0:00 /usr/libexec/gweather-applet-2
+ 2369 ?        Sl     0:45 /usr/libexec/multiload-applet-2
+ 2372 ?        Sl     0:00 /usr/libexec/clock-applet
+ 2373 ?        Sl     0:00 /usr/libexec/notification-area-applet
+ 2392 ?        S      0:00 /usr/libexec/gvfsd-burn --spawner :1.13 /org/gtk/gvfs/exec_spaw/1
+ 2394 ?        Sl     0:00 /usr/libexec/e-calendar-factory
+ 2412 ?        S      0:00 /usr/libexec/gvfsd-metadata
+ 2428 ?        Sl     1:07 /home/pavel/pavel/soft/skype_static-2.2.0.35/skype
+ 2962 ?        SLl    1:23 totem /home/pavel/Song/5. Taka - Ferdous Wahid & Shithi Saha (MyTuneBD.coM).mp3
+ 3056 ?        Sl     0:05 gnome-terminal
+ 3059 pts/0    Ss     0:00 -bash
+ 3065 pts/0    S+     0:00 ping 192.168.90.1
+ 3338 ?        S      0:00 [kworker/0:2]
+ 3390 ?        S<     0:00 /sbin/udevd --daemon
+ 3391 ?        S<     0:00 /sbin/udevd --daemon
+ 3397 ?        S      0:00 /usr/libexec/gvfsd-computer --spawner :1.13 /org/gtk/gvfs/exec_spaw/3
+ 3414 ?        Sl     0:02 gedit /home/pavel/pavel/prog/for_fun/device_driver/linux_DD/module/m_8_lock/lock.c
+ 3436 ?        SLl    0:38 /usr/lib/chromium-browser/chrome --extra-plugin-dir=/usr/lib/nsbrowser/plugins
+ 3440 ?        Sl     0:00 /usr/lib/chromium-browser/chrome --extra-plugin-dir=/usr/lib/nsbrowser/plugins
+ 3442 ?        S      0:00 /usr/lib/chromium-browser/chrome --type=zygote
+ 3444 ?        S      0:00 /usr/lib/chromium-browser/nacl_helper_bootstrap /usr/lib/chromium-browser/nacl_helper --at-zero
+ 3470 ?        Sl     0:00 /usr/lib/chromium-browser/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_default/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_10/Instant/Inactive/Prefetch/ContentPrefetchPrerenderControl1/PrerenderFromOmniboxHeuristic/ConservativeAlgorithm/ProxyConnectionImpact/proxy_connections_32/SpdyImpact/npn_with_spdy/WarmSocketImpact/warm_socket/ --extension-process --channel=3436.0xb870dd80.931908701
+ 3521 ?        Sl     0:00 /usr/lib/chromium-browser/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_default/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_10/Instant/Inactive/Prefetch/ContentPrefetchPrerenderControl1/PrerenderFromOmniboxHeuristic/ConservativeAlgorithm/ProxyConnectionImpact/proxy_connections_32/SpdyImpact/npn_with_spdy/WarmSocketImpact/warm_socket/ --extension-process --disable-webgl --disable-pepper-3d-for-untrusted-use --disable-gl-multisampling --disable-accelerated-compositing --channel=3436.0xb870dea0.510618236
+ 3534 ?        Sl     0:00 /usr/lib/chromium-browser/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_default/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_10/Instant/Inactive/Prefetch/ContentPrefetchPrerenderControl1/PrerenderFromOmniboxHeuristic/ConservativeAlgorithm/ProxyConnectionImpact/proxy_connections_32/SpdyImpact/npn_with_spdy/WarmSocketImpact/warm_socket/ --extension-process --disable-webgl --disable-pepper-3d-for-untrusted-use --disable-gl-multisampling --disable-accelerated-compositing --channel=3436.0xb870d120.29845005
+ 3543 ?        Sl     0:00 /usr/lib/chromium-browser/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_default/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_10/Instant/Inactive/Prefetch/ContentPrefetchPrerenderControl1/PrerenderFromOmniboxHeuristic/ConservativeAlgorithm/ProxyConnectionImpact/proxy_connections_32/SpdyImpact/npn_with_spdy/WarmSocketImpact/warm_socket/ --extension-process --disable-webgl --disable-pepper-3d-for-untrusted-use --disable-gl-multisampling --disable-accelerated-compositing --channel=3436.0xb870d240.1711842367
+ 3554 ?        Sl     0:00 /usr/lib/chromium-browser/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_default/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_10/Instant/Inactive/Prefetch/ContentPrefetchPrerenderControl1/PrerenderFromOmniboxHeuristic/ConservativeAlgorithm/ProxyConnectionImpact/proxy_connections_32/SpdyImpact/npn_with_spdy/WarmSocketImpact/warm_socket/ --extension-process --disable-webgl --disable-pepper-3d-for-untrusted-use --disable-gl-multisampling --disable-accelerated-compositing --channel=3436.0xb870d360.1700156389
+ 3570 ?        Sl     0:04 /usr/lib/chromium-browser/chrome --type=renderer --lang=en-US --force-fieldtest=ConnCountImpact/conn_count_6/ConnnectBackupJobs/ConnectBackupJobsEnabled/DnsImpact/default_enabled_prefetch/DnsParallelism/parallel_default/GlobalSdch/global_enable_sdch/IdleSktToImpact/idle_timeout_10/Instant/Inactive/Prefetch/ContentPrefetchPrerenderControl1/PrerenderFromOmniboxHeuristic/ConservativeAlgorithm/ProxyConnectionImpact/proxy_connections_32/SpdyImpact/npn_with_spdy/WarmSocketImpact/warm_socket/ --disable-webgl --disable-pepper-3d-for-untrusted-use --disable-gl-multisampling --disable-accelerated-compositing --channel=3436.0xb8ddbb40.496364670
+ 3588 ?        Sl     0:02 /usr/lib/chromium-browser/chrome --type=plugin --plugin-path=/opt/Adobe/flash-player/plugin/libflashplayer.so --lang=en-US --channel=3436.0xba9c7dc0.511850370
+ 3597 pts/1    Ss     0:00 -bash
+ 3633 pts/1    R+     0:00 ps ax

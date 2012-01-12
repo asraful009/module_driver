@@ -1,0 +1,10 @@
+#!/bin/sh
+
+module="lock"
+
+/sbin/rmmod $module || exit 1
+ 
+
+rm -f /dev/$module*
+
+
